@@ -1,0 +1,50 @@
+html {
+    background: url(https://image.freepik.com/fotos-gratis/bolos-velas-aalaw-e-polvilha-no-canto-do-fundo-rosa_23-2148190399.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+*{
+        font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif ;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+.intro-header {
+    text-align: center;
+}
+#produtos{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+#carrinho{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+  display: flex;
+}
+.produto-single{
+    width: 100%;
+  }
+  .produto-single img{
+    max-width: 50%;
+    display: inline-block;
+  }
+  .produto-single p{
+    text-align: center;
+    display: inline-block;
+}
+            
+@media screen and (max-width: 768px) {
+    .produto-single{
+        width: 100%;
+        margin-right: 0;
+    }
+}
